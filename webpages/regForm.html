@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table{
+            width:100%;
+        
+        }
+        button{
+            margin:auto 100px;
+        }
+        fieldset{
+            border-color: grey;
+            padding: 30px;
+            background-image: linear-gradient(45deg,rgb(176, 177, 104),rgb(163, 118, 163),rgb(175, 174, 87));
+            box-shadow: 0px 0px 20px white;
+        }
+        legend{
+            background-color: black;
+            color:white;
+            padding:10px;
+            border-radius: 0px 20px;
+        }
+        body{
+            background-image: linear-gradient(45deg,rgb(159, 204, 175),rgb(4, 15, 10),rgb(44, 78, 24));
+        }
+        button{
+            background-color: grey;
+            color:black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Student Info</legend>
+        
+            <table>
+                <tr>
+                    <td><label>StudentName</label></td>
+                    <td><input type="text" placeholder="Enter the StudentName"></td>
+                    <td><label>FatherName</label></td>
+                    <td><input type="text" placeholder="Enter the StudentName"></td>
+                    <td><label>MotherName</label></td>
+                    <td><input type="text" placeholder="Enter the StudentName"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" placeholder="Enter your email"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender"><label>Male</label>
+                        <input type="radio" name="gender"><label>Female</label>
+                        <input type="radio" name="gender"><label>Others</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Mobile No</label></td>
+                    <td><input type="text" placeholder="Enter your mobile no"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Languages</label></td>
+                    <td>
+                        <input type="checkbox"><label>Hindi</label><br>
+                        <input type="checkbox"><label>English</label><br>
+                        <input type="checkbox"><label>Maghahi</label><br>
+                        <input type="checkbox"><label>Bhojpuri</label><br>
+                        <input type="checkbox"><label>Korean</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea row="5px" col="15px"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label>State</label></td>
+                    <td>
+                        <select>
+                            <option>...select...</option>
+                            <option>Bihar</option>
+                            <option>Jharkhand</option>
+                            <option>Punjab</option>
+                            <option>Karnataka</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Aadhar Card</label></td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="6" align="center">
+                        <button>RESET</button>
+                        <button>SUBMIT</button>
+                    </td>
+                </tr>
+                
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

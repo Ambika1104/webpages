@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container{
+            border:2px solid black;
+            width:450px;
+            padding:50px;
+            margin:110px auto;
+            border-radius: 20px;
+            background-color: black;
+
+        }
+        label{
+            font-size: 20px;
+            color:white;
+        }
+        input{
+            padding: 20px;
+            border-radius: 20px;
+        }
+        #em{
+            padding: 20px 130px;
+        }
+        #em1{
+            padding: 30px 130px;
+        }
+        h1{
+            margin:0px;
+            text-align: center;
+            color:white;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: rgb(131, 41, 56);
+            border-radius: 20px;
+            margin:50px 0px 20px 150px;
+        }
+        .child{
+            margin-bottom:30px;
+        }
+        .parent{
+            border:2px solid black;
+            width:800px;
+            border-radius: 20px;
+            margin:0px auto;
+            background-image: linear-gradient(135deg,fuchsia,purple,black);
+
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+        <div class="parent">
+            <div class="container">
+                <div class="child">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="child">
+                    <table>
+                        <tr>
+                            <td>
+                                <label>Full Name *</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label>First</label></td>
+                            <td><label>Last</label></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="child">
+                    <label>E-mail *</label>
+                    <input type="text" id="em">
+                </div>
+                <div class="child">
+                    <label>Leave us few words *</label><br>
+                    <input type="text" id="em1">
+                </div>
+                <div class="child">
+                    <button>SUBMIT</button>
+                </div>
+            </div>
+        </div>
+        
+
+    </form>
+    
+</body>
+</html>
